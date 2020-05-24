@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/board"
+    tools:context=".Main3Activity">
+
+
+    <LinearLayout
+        android:id="@+id/opHand"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/opCard1"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/opCard2"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/opCard3"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/opCard4"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:background="@drawable/button_pressed"
+
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/opCard5"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ManaOp1"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaOp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="73dp"
+            android:text ="0" />
+
+        <TextView
+            android:id="@+id/ManaOp3"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="73dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaOp4"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="73dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaOp5"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="73dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/opField"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/field1Op"
+            android:layout_width="75dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/Ophp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="20" />
+
+        <ImageView
+            android:id="@+id/field2Op"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/Opturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="1" />
+
+        <ImageView
+            android:id="@+id/field3Op"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/Opmanacost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/acField"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_pressed"
+            android:textColor="@color/yellow1"
+            android:text="End Turn" />
+
+        <ImageView
+            android:id="@+id/field1Ac"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="20" />
+
+        <ImageView
+            android:id="@+id/field2Ac"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="1" />
+
+        <ImageView
+            android:id="@+id/field3Ac"
+            android:layout_width="75dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/field" />
+
+        <TextView
+            android:id="@+id/manacost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp">
+
+        <TextView
+            android:id="@+id/ManaAc1"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaAc2"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaAc3"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaAc4"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/ManaAc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="75dp"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/acHand"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/acCard1"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/acCard2"
+            android:layout_width="82dp"
+            android:layout_height="117dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/acCard3"
+            android:layout_width="82dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/acCard4"
+            android:layout_width="82dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/acCard5"
+            android:layout_width="82dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/button_pressed"
+            app:srcCompat="@drawable/back" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
